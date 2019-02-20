@@ -8,3 +8,8 @@ npm list -g --depth 0
 ```
 
 [Guide for express-generator](https://expressjs.com/en/starter/generator.html)
+
+Command line to display the tree ignoring node_modules
+```zsh
+tree -I node_modules
+```
