@@ -9,7 +9,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-  res.send({method: 'POST'});
+  res.send({
+  	string: req.query.string,
+  	method: 'POST'});
 });
 
 module.exports = router;
