@@ -13,3 +13,9 @@ Command line to display the tree ignoring node_modules
 ```zsh
 tree -I node_modules
 ```
+
+Get request to /hw1
+![get_image](./myapp/public/images/get_hw1.png)
+
+Post request to /hw1
+![post_image](./myapp/public/images/post_hw1.png)
